@@ -21,13 +21,9 @@ function Home(props) {
                 <div className="col-12 col-md m-1">
                     <RenderCard item={props.dish} />
                 </div>
-            </div>
-            <div className="row align-items-start">
                 <div className="col-12 col-md m-1">
-                    <RenderCard item={props.promotion} />
+                    <RenderCard item={props.promotion}/>
                 </div>
-            </div>
-            <div className="row align-items-start">
                 <div className="col-12 col-md m-1">
                     <RenderCard item={props.leader} />
                 </div>
